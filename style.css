@@ -14,7 +14,7 @@ nav{
     align-items: center;
     background-color: lightblue;
     color: white;
-    position: fixed;
+    position: sticky;
     top: 0;
 }
 
@@ -47,6 +47,7 @@ header{
 .profile{
     height: 100vh;
     width: 300px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
